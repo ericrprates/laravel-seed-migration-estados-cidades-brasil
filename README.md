@@ -36,7 +36,7 @@ Após a instalação, você deve rodar as migrations e os seeders:
 
 ```bash
 php artisan migrate
-php artisan db:seed --class="Guiliredu\\BrazilianCityMigrationSeed\\Database\\Seeds\\DatabaseSeeder"
+php artisan db:seed --class="Guiliredu\BrazilianCityMigrationSeed\Database\Seeds\DatabaseSeeder"
 ```
 
 ## Usage
